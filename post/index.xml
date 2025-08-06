@@ -8,11 +8,105 @@
         <language>zh-cn</language>
         <copyright>可乐Club</copyright>
         <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mumu615.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Markdown 语法全元素测试</title>
-        <link>https://mumu615.github.io/p/markdown-%E8%AF%AD%E6%B3%95%E5%85%A8%E5%85%83%E7%B4%A0%E6%B5%8B%E8%AF%95/</link>
+        <title>Github开源分享Vol.001</title>
+        <link>https://mumu615.github.io/p/github%E5%BC%80%E6%BA%90%E5%88%86%E4%BA%ABvol.001/</link>
         <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://mumu615.github.io/p/markdown-%E8%AF%AD%E6%B3%95%E5%85%A8%E5%85%83%E7%B4%A0%E6%B5%8B%E8%AF%95/</guid>
+        <guid>https://mumu615.github.io/p/github%E5%BC%80%E6%BA%90%E5%88%86%E4%BA%ABvol.001/</guid>
+        <description>&lt;blockquote&gt;
+&lt;h2 id=&#34;开源模型汇总&#34;&gt;开源模型汇总
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;背景趋势&lt;/strong&gt;：国外模型在闭源（“庇员”），而国内加速开源（“拼命开源”），近期因世界人工智能大会集中爆发。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;阿里模型系列&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;7月21日：开源千万325B A22（QianWan3家族基础模型），刷新多项记录。&lt;/li&gt;
+&lt;li&gt;7月22日：开源千万3Coder 480B，配合千万Coder工具（命令行AI开发助手，对标CoderCoder），建议通过千万Coder体验效果。&lt;/li&gt;
+&lt;li&gt;7月25日：开源千万325B A222Sinking（最新思考模型）。&lt;/li&gt;
+&lt;li&gt;7月28日：开源1.2.2（业界首个Moe架构视频声称基础模型），包括文上视频T2V、涂声视频i2V和统一视频声称i2T2V；业界广泛基于此微调。&lt;/li&gt;
+&lt;li&gt;7月30-31日：开源千万330B A3B和sinking版本，提供小规模本地部署选项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他机构模型&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;7月26日：上海人工智能实验室开源Intern SE（235B QianWan3 + 6B视觉编码器），强化科学领域训练，支持分子式、地震信号等数据理解。&lt;/li&gt;
+&lt;li&gt;7月27日：同学会员开源三地世界模型（业界首个可成绩式蔓游可交互世界生成模型），用于游戏开发和数据内容创作。&lt;/li&gt;
+&lt;li&gt;7月28日：制补开源GRM4.5系列（GRM4.5335B、A22B、i2等），社区反响好，冲到Hugging Face榜首。&lt;/li&gt;
+&lt;li&gt;7月30日：困难万为开源Skywalking Unipake 1.5B（多么太统一模型），整合图像理解、生成和编辑能力。&lt;/li&gt;
+&lt;li&gt;8月1日：监约星辰发布Snap3（新一代主力机座模型），宣称推里效率最高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;coze的开源版本&#34;&gt;Coze的开源版本
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;背景&lt;/strong&gt;：Code开源智能体版本，缩小与Dify和N8n的差距&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署要求&lt;/strong&gt;：至少两核4G内存，建议更高配置；组件设计清晰，服务组件化明确。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能对比&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;优势：架构简洁，易于持续发展。&lt;/li&gt;
+&lt;li&gt;不足：插件、工作流和用户管理相对欠缺，可能是为企业版预留空间或暂未发布。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;建议&lt;/strong&gt;：根据需求选择Code、Dify或n8n，三者差异不大。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;开源hr管理系统&#34;&gt;开源HR管理系统
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;项目&lt;/strong&gt;：Fripper HRMS（源自ERPNX HR模块，V14起独立运营）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能模块&lt;/strong&gt;：包含13个模块，覆盖员工管理、入职、修架、爆销、技效、新资、税务等；需配置和初始化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署与使用&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;支持Docker部署，上手方便。&lt;/li&gt;
+&lt;li&gt;提供功能完整的移动应用程序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：税务模块需验证是否适配国内税制（本地特色强）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适用场景&lt;/strong&gt;：小公司可试用，强调现代潜医使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;多功能文件分享工具&#34;&gt;多功能文件分享工具
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;项目&lt;/strong&gt;：Copy Party（多功能文件服务器）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;支持浏览器、WaveDive或FTP访问。&lt;/li&gt;
+&lt;li&gt;操作友好：拖转文件上传、批量重命名、文件搜索、上传回撤、时间自动消回、缩略图、音频编码。&lt;/li&gt;
+&lt;li&gt;文档全面，功能丰富。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;Windows：直接执行ESC文件。&lt;/li&gt;
+&lt;li&gt;其他平台：运行Python命令，默认端口80/443。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：分享大文件（如10GB视频），避免网盘限速，确保私有化本地保存。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;开源简历优化工具&#34;&gt;开源简历优化工具
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;项目&lt;/strong&gt;：Resume Master（ATS通过神器），通过内相工程定制简历。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;：改造简历以通过ATS筛选，非创建简历。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署与运行&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;环境：Python 3.8+、Node.js。&lt;/li&gt;
+&lt;li&gt;步骤：执行&lt;code&gt;npm run build&lt;/code&gt;，使用本地olama大模型（数据本地运行）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用流程&lt;/strong&gt;：上传简历和JD（职位描述），系统提供定制建议。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;问题&lt;/strong&gt;：测试中因Pantetic数据验证失败（JD不符要求），可能需优化适配。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;最后分享资料&#34;&gt;最后分享资料
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;云计算蓝皮书2025&lt;/strong&gt;：新统院出品，覆盖20年云计算历史，强调AI时代云计算价值。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;北京大学内部资料&lt;/strong&gt;：DeepSeek研讨资料（非最新但全面），适合直接用于讲课PVT。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;本期聚焦GitHub热点，突出国内开源大模型爆发（如阿里QianWan系列、Intern SE等），覆盖AI开发工具（Coze开源版）、企业系统（Fripper HRMS）、实用工具（Copy Party文件分享、Resume Master简历优化）及行业资料（云计算蓝皮书、北大DeepSeek研讨）。核心趋势是国内开源加速，工具强调本地部署与私有化，建议开发者根据需求试用模型和小型工具，注意税务适配及部署配置。&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
+        <title>Markdown 全语法</title>
+        <link>https://mumu615.github.io/p/markdown-%E5%85%A8%E8%AF%AD%E6%B3%95/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/markdown-%E5%85%A8%E8%AF%AD%E6%B3%95/</guid>
         <description>&lt;h1 id=&#34;一级标题测试&#34;&gt;一级标题测试
 &lt;/h1&gt;&lt;h2 id=&#34;二级标题测试&#34;&gt;二级标题测试
 &lt;/h2&gt;&lt;h3 id=&#34;三级标题测试&#34;&gt;三级标题测试
@@ -228,6 +322,125 @@ $$&lt;hr&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
 </description>
+        </item>
+        <item>
+        <title>n8n开源项目</title>
+        <link>https://mumu615.github.io/p/n8n%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/n8n%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</guid>
+        <description>&lt;h2 id=&#34;n8n开源项目开发者必备的自动化利器&#34;&gt;n8n开源项目：开发者必备的自动化利器
+&lt;/h2&gt;&lt;p&gt;作为一个长期和API打交道的开发者，我深知集成不同系统时的痛苦——每个平台都有自己的认证方式，数据格式千奇百怪，写定制化脚本又耗时耗力。直到遇见了n8n，这个开源的自动化工具彻底改变了我的工作方式。今天，就让我带大家深入了解这个&amp;quot;开发者的瑞士军刀&amp;quot;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://picsum.photos/800/400?random=1&amp;amp;text=n8n&amp;#43;%e5%b7%a5%e4%bd%9c%e6%b5%81%e7%95%8c%e9%9d%a2&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;n8n工作流示例&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;什么是n8n&#34;&gt;什么是n8n
+&lt;/h3&gt;&lt;p&gt;n8n（发音为&amp;quot;n-eight-n&amp;quot;）是一个基于节点的开源工作流自动化工具。与Zapier这类SaaS产品不同，n8n最吸引开发者的是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;自托管能力&lt;/strong&gt;：可以完全部署在自己的服务器上，数据完全自主掌控&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;可视化编程&lt;/strong&gt;：通过拖拽节点构建复杂工作流&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;丰富的连接器&lt;/strong&gt;：支持300+主流服务的API集成&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活的扩展性&lt;/strong&gt;：可以轻松添加自定义节点和功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;核心架构解析&#34;&gt;核心架构解析
+&lt;/h3&gt;&lt;p&gt;n8n的核心设计理念让我这个技术控特别欣赏：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;基于Node.js&lt;/strong&gt;：这使得它天然适合处理I/O密集型任务&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;微服务架构&lt;/strong&gt;：各个组件松耦合，便于扩展&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Webhook优先&lt;/strong&gt;：事件驱动设计非常适合现代应用场景&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;队列系统&lt;/strong&gt;：使用Redis处理任务分发，保证可靠性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt; 1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 8
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt; 9
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;10
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;// 示例：自定义n8n节点
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;module&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;exports&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;customNode&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;version&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;我的自定义节点&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;nx&#34;&gt;defaults&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;nx&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;Custom Node&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;},&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c1&#34;&gt;// ...其他配置
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id=&#34;实际应用场景&#34;&gt;实际应用场景
+&lt;/h3&gt;&lt;p&gt;在我的项目中，n8n已经帮我们解决了多个痛点：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;跨系统数据同步&lt;/strong&gt;：将CRM系统的客户数据自动同步到邮件营销平台&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;异常监控&lt;/strong&gt;：当服务器出现异常时，自动创建工单并通知相关负责人&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;定时报告&lt;/strong&gt;：每天自动生成业务报表并发送到Slack频道&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;https://via.placeholder.com/600x400.png?text=CRM&amp;#43;%e5%88%b0&amp;#43;%e9%82%ae%e4%bb%b6%e7%9a%84%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%81%e7%a8%8b&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;自动化流程示例&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h3 id=&#34;部署与调优经验&#34;&gt;部署与调优经验
+&lt;/h3&gt;&lt;p&gt;经过多次实践，我总结出几个关键点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Docker部署&lt;/strong&gt;是最佳选择，方便管理和升级&lt;/li&gt;
+&lt;li&gt;对于高频任务，建议单独部署工作流执行器&lt;/li&gt;
+&lt;li&gt;合理设置重试机制和错误处理节点&lt;/li&gt;
+&lt;li&gt;使用n8n的版本控制功能管理工作流变更&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;开发者生态与扩展&#34;&gt;开发者生态与扩展
+&lt;/h3&gt;&lt;p&gt;n8n的社区非常活跃，我发现几个特别有用的资源：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;官方节点库&lt;/strong&gt;：可以直接复用社区贡献的节点&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;REST API&lt;/strong&gt;：可以编程方式管理工作流&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CLI工具&lt;/strong&gt;：方便批量导入导出配置&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;挑战与思考&#34;&gt;挑战与思考
+&lt;/h3&gt;&lt;p&gt;虽然n8n很强大，但在使用中也遇到一些挑战：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;复杂工作流的调试比较耗时&lt;/li&gt;
+&lt;li&gt;大规模部署时的性能优化需要经验&lt;/li&gt;
+&lt;li&gt;企业级功能（如细粒度权限控制）还在完善中&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;未来展望&#34;&gt;未来展望
+&lt;/h3&gt;&lt;p&gt;从n8n的发展路线图来看，有几个方向特别值得期待：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;更强大的表达式引擎&lt;/li&gt;
+&lt;li&gt;原生Kubernetes支持&lt;/li&gt;
+&lt;li&gt;改进的团队协作功能&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;结语&#34;&gt;结语
+&lt;/h2&gt;&lt;p&gt;作为一个开发者，n8n给我的最大启示是：自动化不应该只是运维的专利。通过可视化工具降低门槛，让每个开发者都能轻松构建自己的自动化解决方案，这才是技术普惠的真正意义。如果你还没尝试过n8n，我强烈建议从官方文档开始，相信你很快就会发现它的价值。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;小贴士&lt;/strong&gt;：n8n社区版是完全免费的，但企业版提供了一些增强功能。根据我的经验，对大多数个人和小团队来说，社区版已经足够强大了。&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>test</title>
+        <link>https://mumu615.github.io/p/test/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/test/</guid>
+        <description></description>
         </item>
         
     </channel>

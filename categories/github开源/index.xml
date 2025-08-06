@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Github,开源 on 可乐Club</title>
+        <link>https://mumu615.github.io/categories/github%E5%BC%80%E6%BA%90/</link>
+        <description>Recent content in Github,开源 on 可乐Club</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>可乐Club</copyright>
+        <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mumu615.github.io/categories/github%E5%BC%80%E6%BA%90/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Github开源分享Vol.001</title>
+        <link>https://mumu615.github.io/p/github%E5%BC%80%E6%BA%90%E5%88%86%E4%BA%ABvol.001/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/github%E5%BC%80%E6%BA%90%E5%88%86%E4%BA%ABvol.001/</guid>
+        <description>&lt;blockquote&gt;
+&lt;h2 id=&#34;开源模型汇总&#34;&gt;开源模型汇总
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;背景趋势&lt;/strong&gt;：国外模型在闭源（“庇员”），而国内加速开源（“拼命开源”），近期因世界人工智能大会集中爆发。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;阿里模型系列&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;7月21日：开源千万325B A22（QianWan3家族基础模型），刷新多项记录。&lt;/li&gt;
+&lt;li&gt;7月22日：开源千万3Coder 480B，配合千万Coder工具（命令行AI开发助手，对标CoderCoder），建议通过千万Coder体验效果。&lt;/li&gt;
+&lt;li&gt;7月25日：开源千万325B A222Sinking（最新思考模型）。&lt;/li&gt;
+&lt;li&gt;7月28日：开源1.2.2（业界首个Moe架构视频声称基础模型），包括文上视频T2V、涂声视频i2V和统一视频声称i2T2V；业界广泛基于此微调。&lt;/li&gt;
+&lt;li&gt;7月30-31日：开源千万330B A3B和sinking版本，提供小规模本地部署选项。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;其他机构模型&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;7月26日：上海人工智能实验室开源Intern SE（235B QianWan3 + 6B视觉编码器），强化科学领域训练，支持分子式、地震信号等数据理解。&lt;/li&gt;
+&lt;li&gt;7月27日：同学会员开源三地世界模型（业界首个可成绩式蔓游可交互世界生成模型），用于游戏开发和数据内容创作。&lt;/li&gt;
+&lt;li&gt;7月28日：制补开源GRM4.5系列（GRM4.5335B、A22B、i2等），社区反响好，冲到Hugging Face榜首。&lt;/li&gt;
+&lt;li&gt;7月30日：困难万为开源Skywalking Unipake 1.5B（多么太统一模型），整合图像理解、生成和编辑能力。&lt;/li&gt;
+&lt;li&gt;8月1日：监约星辰发布Snap3（新一代主力机座模型），宣称推里效率最高。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;coze的开源版本&#34;&gt;Coze的开源版本
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;背景&lt;/strong&gt;：Code开源智能体版本，缩小与Dify和N8n的差距&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署要求&lt;/strong&gt;：至少两核4G内存，建议更高配置；组件设计清晰，服务组件化明确。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能对比&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;优势：架构简洁，易于持续发展。&lt;/li&gt;
+&lt;li&gt;不足：插件、工作流和用户管理相对欠缺，可能是为企业版预留空间或暂未发布。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;建议&lt;/strong&gt;：根据需求选择Code、Dify或n8n，三者差异不大。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;开源hr管理系统&#34;&gt;开源HR管理系统
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;项目&lt;/strong&gt;：Fripper HRMS（源自ERPNX HR模块，V14起独立运营）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能模块&lt;/strong&gt;：包含13个模块，覆盖员工管理、入职、修架、爆销、技效、新资、税务等；需配置和初始化。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署与使用&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;支持Docker部署，上手方便。&lt;/li&gt;
+&lt;li&gt;提供功能完整的移动应用程序。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;注意事项&lt;/strong&gt;：税务模块需验证是否适配国内税制（本地特色强）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;适用场景&lt;/strong&gt;：小公司可试用，强调现代潜医使用。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;多功能文件分享工具&#34;&gt;多功能文件分享工具
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;项目&lt;/strong&gt;：Copy Party（多功能文件服务器）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;支持浏览器、WaveDive或FTP访问。&lt;/li&gt;
+&lt;li&gt;操作友好：拖转文件上传、批量重命名、文件搜索、上传回撤、时间自动消回、缩略图、音频编码。&lt;/li&gt;
+&lt;li&gt;文档全面，功能丰富。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;Windows：直接执行ESC文件。&lt;/li&gt;
+&lt;li&gt;其他平台：运行Python命令，默认端口80/443。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用场景&lt;/strong&gt;：分享大文件（如10GB视频），避免网盘限速，确保私有化本地保存。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;开源简历优化工具&#34;&gt;开源简历优化工具
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;项目&lt;/strong&gt;：Resume Master（ATS通过神器），通过内相工程定制简历。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;：改造简历以通过ATS筛选，非创建简历。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;部署与运行&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;环境：Python 3.8+、Node.js。&lt;/li&gt;
+&lt;li&gt;步骤：执行&lt;code&gt;npm run build&lt;/code&gt;，使用本地olama大模型（数据本地运行）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;使用流程&lt;/strong&gt;：上传简历和JD（职位描述），系统提供定制建议。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;问题&lt;/strong&gt;：测试中因Pantetic数据验证失败（JD不符要求），可能需优化适配。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;最后分享资料&#34;&gt;最后分享资料
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;云计算蓝皮书2025&lt;/strong&gt;：新统院出品，覆盖20年云计算历史，强调AI时代云计算价值。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;北京大学内部资料&lt;/strong&gt;：DeepSeek研讨资料（非最新但全面），适合直接用于讲课PVT。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;总结&#34;&gt;总结
+&lt;/h2&gt;&lt;p&gt;本期聚焦GitHub热点，突出国内开源大模型爆发（如阿里QianWan系列、Intern SE等），覆盖AI开发工具（Coze开源版）、企业系统（Fripper HRMS）、实用工具（Copy Party文件分享、Resume Master简历优化）及行业资料（云计算蓝皮书、北大DeepSeek研讨）。核心趋势是国内开源加速，工具强调本地部署与私有化，建议开发者根据需求试用模型和小型工具，注意税务适配及部署配置。&lt;/p&gt;&lt;/blockquote&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

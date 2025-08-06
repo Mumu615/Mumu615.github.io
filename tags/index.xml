@@ -8,6 +8,22 @@
         <language>zh-cn</language>
         <copyright>可乐Club</copyright>
         <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mumu615.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Github</title>
+        <link>https://mumu615.github.io/tags/github/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/tags/github/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Github开源项目</title>
+        <link>https://mumu615.github.io/tags/github%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/tags/github%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/</guid>
+        <description></description>
+        </item>
+        <item>
         <title>Markdown</title>
         <link>https://mumu615.github.io/tags/markdown/</link>
         <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
@@ -16,19 +32,35 @@
         <description></description>
         </item>
         <item>
-        <title>测试</title>
-        <link>https://mumu615.github.io/tags/%E6%B5%8B%E8%AF%95/</link>
+        <title>标签1</title>
+        <link>https://mumu615.github.io/tags/%E6%A0%87%E7%AD%BE1/</link>
         <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://mumu615.github.io/tags/%E6%B5%8B%E8%AF%95/</guid>
+        <guid>https://mumu615.github.io/tags/%E6%A0%87%E7%AD%BE1/</guid>
         <description></description>
         </item>
         <item>
-        <title>语法</title>
-        <link>https://mumu615.github.io/tags/%E8%AF%AD%E6%B3%95/</link>
+        <title>标签2</title>
+        <link>https://mumu615.github.io/tags/%E6%A0%87%E7%AD%BE2/</link>
         <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://mumu615.github.io/tags/%E8%AF%AD%E6%B3%95/</guid>
+        <guid>https://mumu615.github.io/tags/%E6%A0%87%E7%AD%BE2/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>开源</title>
+        <link>https://mumu615.github.io/tags/%E5%BC%80%E6%BA%90/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/tags/%E5%BC%80%E6%BA%90/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>深度解析</title>
+        <link>https://mumu615.github.io/tags/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/tags/%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</guid>
         <description></description>
         </item>
         
