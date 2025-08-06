@@ -568,6 +568,213 @@ $$&lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;小贴士&lt;/strong&gt;：n8n社区版是完全免费的，但企业版提供了一些增强功能。根据我的经验，对大多数个人和小团队来说，社区版已经足够强大了。&lt;/p&gt;
 </description>
         </item>
+        <item>
+        <title>开源项目汇总</title>
+        <link>https://mumu615.github.io/p/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%80%BB/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%80%BB/</guid>
+        <description>&lt;h3 id=&#34;一声音克隆工具&#34;&gt;一、声音克隆工具
+&lt;/h3&gt;&lt;h4 id=&#34;1-cosyvoice2&#34;&gt;1. CosyVoice2
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;：AI音色克隆&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;资源&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;夸克网盘：https://pan.quark.cn/s/e3775fc74447&lt;/li&gt;
+&lt;li&gt;百度网盘：https://pan.baidu.com/s/1wyWodBnOR_MrZ3CopCfPIw?pwd=qhqm
+🔑提取码：qhqm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;演示视频&lt;/strong&gt;：
+&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1pnkFYmEAE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【AI音色克隆】阿里CosyVoice V2测试&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开源地址&lt;/strong&gt;：
+GitHub：https://github.com/FunAudioLLM/CosyVoice
+官网：https://funaudiollm.github.io/cosyvoice2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-indextts-v5&#34;&gt;2. IndexTTS V5
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;相关项目&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;Whisper：https://github.com/openai/whisper&lt;/li&gt;
+&lt;li&gt;IndexTTS：https://github.com/index-tts/index-tts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;整合包下载&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;百度网盘：https://pan.baidu.com/s/1pHXCrKDWlZyHvqvy6qCIwg?pwd=ksuh&lt;/li&gt;
+&lt;li&gt;夸克网盘：https://pan.quark.cn/s/656231768a2c?pwd=LNXk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-minimax-audio&#34;&gt;3. Minimax Audio
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;官方链接:https://www.minimax.io/audio/text-to-speech&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;二数字人项目&#34;&gt;二、数字人项目
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Heygem&lt;/strong&gt;（对口型生成）
+GitHub：https://github.com/duixcom/Duix.Heygem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sync&lt;/strong&gt;（对口型生成）
+官网：https://sync.so/&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multital：&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;视频教程：https://www.bilibili.com/video/BV1huKbzhEJg&lt;/li&gt;
+&lt;li&gt;在线测试：
+&lt;ul&gt;
+&lt;li&gt;粉丝专享版：https://www.runninghub.cn/?utm_source=kol01-RH138&lt;/li&gt;
+&lt;li&gt;运镜参考版：https://www.runninghub.cn/post/1936951987776704514&lt;/li&gt;
+&lt;li&gt;一键直出版：https://www.runninghub.cn/post/1937688906760654850&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;工作流下载：
+🔗夸克网盘：https://pan.quark.cn/s/55e7be1bcb90&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;三视频生成工具&#34;&gt;三、视频生成工具
+&lt;/h3&gt;&lt;hr&gt;
+&lt;h3 id=&#34;四其他工具&#34;&gt;四、其他工具
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;BiliNote&lt;/strong&gt;
+哔哩哔哩/YouTube视频结构化笔记工具
+（链接待补充）&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
+        <item>
+        <title>数字人技术测试</title>
+        <link>https://mumu615.github.io/p/%E6%95%B0%E5%AD%97%E4%BA%BA%E6%8A%80%E6%9C%AF%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/%E6%95%B0%E5%AD%97%E4%BA%BA%E6%8A%80%E6%9C%AF%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;h2 id=&#34;开源项目功能&#34;&gt;开源项目功能
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;HeyGem、LstmSync&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术特点&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;保留原视频的所有动作&lt;/li&gt;
+&lt;li&gt;通过现有视频+音频完成对口型功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;局限性&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;依赖原始视频素材质量&lt;/li&gt;
+&lt;li&gt;无法生成新动作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;平台技术&#34;&gt;平台技术
+&lt;/h2&gt;&lt;h3 id=&#34;heygen平台&#34;&gt;&lt;strong&gt;HeyGen平台&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术特点&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;有大量公用数字人&lt;/li&gt;
+&lt;li&gt;可完成对口型功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺点&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;动作表现单一&lt;/li&gt;
+&lt;li&gt;缺乏肢体语言表达&lt;/li&gt;
+&lt;li&gt;无法创造动作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;禅境平台&#34;&gt;&lt;strong&gt;禅境平台&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;技术特点&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;形象生成&lt;/li&gt;
+&lt;li&gt;动作生成（基于形象）&lt;/li&gt;
+&lt;li&gt;口型同步（在动作基础上）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;缺点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动作夸张不自然&lt;/li&gt;
+&lt;li&gt;口型匹配不完全准确&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;一整合方案&#34;&gt;&lt;strong&gt;一、整合方案：&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;各平台优势整合&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;禅境平台&lt;/strong&gt;：用于基础形象生成（质量最优）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;即梦平台&lt;/strong&gt;：用于动作生成（弥补禅境动作缺陷）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HeyGem开源方案&lt;/strong&gt;：用于最终口型同步（保证自然度）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;规避各平台弱点&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;避开禅境不自然的自动生成动作&lt;/li&gt;
+&lt;li&gt;避开HeyGen缺乏动作的局限性&lt;/li&gt;
+&lt;li&gt;避开即梦可能存在的形象生成质量波动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;二hong形象实现流程&#34;&gt;&lt;strong&gt;二、Hong形象实现流程&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;基础形象生成阶段&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;使用禅境，参考Hong形象生成了一个好看的形象（左 原Hong，右 生成新形象）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://uxw8itet2ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NGYyZjJiZmJhZmZlMDRlNWYzZGVjZGU2Yjc2NWZlMDZfYWw3T05jNmE4NEhDaFcwWFNneXZ1Uk5pSko3OU5JRURfVG9rZW46TFQ2SmJ0SDl5b3RrNUl4TTk0c2NvY3RObndkXzE3NTQ0Njc2ODc6MTc1NDQ3MTI4N19WNA&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img&#34;
+	
+	
+&gt;&lt;img src=&#34;https://uxw8itet2ai.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2IwOTNhYTgzMTFjMmQ5M2U1YWI0Yzc2MTEzYWNjOTVfd2gwNHpuOE1uZG8wTmxQT29JVGpMU2lnM3owR1Z2RVdfVG9rZW46V1FkN2JsOHZVb3lFQTN4eVgyOGNhdzFTbjRiXzE3NTQ0Njc2ODc6MTc1NDQ3MTI4N19WNA&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;动作赋予与口型同步&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;利用即梦为两个形象赋予动作，再利用heygem完成口型同步&lt;/p&gt;
+&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://KJpObVUPNoqmSkxHoCwcouOrnZd&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;47531319&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;同步1.mp4&#34; data-lark-video-width=&#34;1920&#34; data-lark-video-height=&#34;1080&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://R98IbQ2AxofPNSxQU3LcrYL2ntb&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;64415419&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;同步2.mp4&#34; data-lark-video-width=&#34;704&#34; data-lark-video-height=&#34;1248&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;禅境动作+口型：&lt;/p&gt;
+&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://DKVabBnCioURCAxvT41cfSSRnKh&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;3867049&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;本周全球AI前沿速览.mp4&#34; data-lark-video-width=&#34;1080&#34; data-lark-video-height=&#34;1920&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;即梦动作组2：&lt;/p&gt;
+&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://LDB3bUhPgooGpXxooJ7c3m5RnEc&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;57380766&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;同步3.mp4&#34; data-lark-video-width=&#34;1440&#34; data-lark-video-height=&#34;1440&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>资源直链</title>
+        <link>https://mumu615.github.io/p/%E8%B5%84%E6%BA%90%E7%9B%B4%E9%93%BE/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/%E8%B5%84%E6%BA%90%E7%9B%B4%E9%93%BE/</guid>
+        <description>&lt;h2 id=&#34;亚马逊云服务&#34;&gt;亚马逊云服务
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://aws.amazon.com/cn/free/?trk=df711691-64d6-45a1-90fa-f0db95f7bd65&amp;amp;sc_channel=sm&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;亚马逊12个月免费服务器&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;域名服务&#34;&gt;域名服务
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.gname.com/register?lang=zhcn&amp;amp;tt=18239&amp;amp;ttbj=dhzyfun&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;海外域名服务商Gname&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;青龙面板相关&#34;&gt;青龙面板相关
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/whyour/qinglong&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;青龙面板GitHub仓库&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/FlechazoPh/QLDependency&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;青龙面板全依赖一键安装脚本&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://qinglong.online/index&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;青龙面板官方文档&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.dhzy.fun/archives/6779.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;青龙面板脚本合集&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
         
     </channel>
 </rss>

@@ -346,6 +346,80 @@
 &lt;p&gt;&lt;strong&gt;小贴士&lt;/strong&gt;：n8n社区版是完全免费的，但企业版提供了一些增强功能。根据我的经验，对大多数个人和小团队来说，社区版已经足够强大了。&lt;/p&gt;
 </description>
         </item>
+        <item>
+        <title>开源项目汇总</title>
+        <link>https://mumu615.github.io/p/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%80%BB/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E6%B1%87%E6%80%BB/</guid>
+        <description>&lt;h3 id=&#34;一声音克隆工具&#34;&gt;一、声音克隆工具
+&lt;/h3&gt;&lt;h4 id=&#34;1-cosyvoice2&#34;&gt;1. CosyVoice2
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;功能&lt;/strong&gt;：AI音色克隆&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;资源&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;夸克网盘：https://pan.quark.cn/s/e3775fc74447&lt;/li&gt;
+&lt;li&gt;百度网盘：https://pan.baidu.com/s/1wyWodBnOR_MrZ3CopCfPIw?pwd=qhqm
+🔑提取码：qhqm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;演示视频&lt;/strong&gt;：
+&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1pnkFYmEAE&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【AI音色克隆】阿里CosyVoice V2测试&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;开源地址&lt;/strong&gt;：
+GitHub：https://github.com/FunAudioLLM/CosyVoice
+官网：https://funaudiollm.github.io/cosyvoice2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;2-indextts-v5&#34;&gt;2. IndexTTS V5
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;相关项目&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;Whisper：https://github.com/openai/whisper&lt;/li&gt;
+&lt;li&gt;IndexTTS：https://github.com/index-tts/index-tts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;整合包下载&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;百度网盘：https://pan.baidu.com/s/1pHXCrKDWlZyHvqvy6qCIwg?pwd=ksuh&lt;/li&gt;
+&lt;li&gt;夸克网盘：https://pan.quark.cn/s/656231768a2c?pwd=LNXk&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;3-minimax-audio&#34;&gt;3. Minimax Audio
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;官方链接:https://www.minimax.io/audio/text-to-speech&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;二数字人项目&#34;&gt;二、数字人项目
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Heygem&lt;/strong&gt;（对口型生成）
+GitHub：https://github.com/duixcom/Duix.Heygem&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sync&lt;/strong&gt;（对口型生成）
+官网：https://sync.so/&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multital：&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;视频教程：https://www.bilibili.com/video/BV1huKbzhEJg&lt;/li&gt;
+&lt;li&gt;在线测试：
+&lt;ul&gt;
+&lt;li&gt;粉丝专享版：https://www.runninghub.cn/?utm_source=kol01-RH138&lt;/li&gt;
+&lt;li&gt;运镜参考版：https://www.runninghub.cn/post/1936951987776704514&lt;/li&gt;
+&lt;li&gt;一键直出版：https://www.runninghub.cn/post/1937688906760654850&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;工作流下载：
+🔗夸克网盘：https://pan.quark.cn/s/55e7be1bcb90&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;三视频生成工具&#34;&gt;三、视频生成工具
+&lt;/h3&gt;&lt;hr&gt;
+&lt;h3 id=&#34;四其他工具&#34;&gt;四、其他工具
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;BiliNote&lt;/strong&gt;
+哔哩哔哩/YouTube视频结构化笔记工具
+（链接待补充）&lt;/p&gt;
+&lt;hr&gt;
+</description>
+        </item>
         
     </channel>
 </rss>

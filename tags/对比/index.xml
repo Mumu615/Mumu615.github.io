@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>对比 on 可乐Club</title>
+        <link>https://mumu615.github.io/tags/%E5%AF%B9%E6%AF%94/</link>
+        <description>Recent content in 对比 on 可乐Club</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>可乐Club</copyright>
+        <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mumu615.github.io/tags/%E5%AF%B9%E6%AF%94/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>数字人技术测试</title>
+        <link>https://mumu615.github.io/p/%E6%95%B0%E5%AD%97%E4%BA%BA%E6%8A%80%E6%9C%AF%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/%E6%95%B0%E5%AD%97%E4%BA%BA%E6%8A%80%E6%9C%AF%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;h2 id=&#34;开源项目功能&#34;&gt;开源项目功能
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;HeyGem、LstmSync&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术特点&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;保留原视频的所有动作&lt;/li&gt;
+&lt;li&gt;通过现有视频+音频完成对口型功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;局限性&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;依赖原始视频素材质量&lt;/li&gt;
+&lt;li&gt;无法生成新动作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;平台技术&#34;&gt;平台技术
+&lt;/h2&gt;&lt;h3 id=&#34;heygen平台&#34;&gt;&lt;strong&gt;HeyGen平台&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术特点&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;有大量公用数字人&lt;/li&gt;
+&lt;li&gt;可完成对口型功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺点&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;动作表现单一&lt;/li&gt;
+&lt;li&gt;缺乏肢体语言表达&lt;/li&gt;
+&lt;li&gt;无法创造动作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;禅境平台&#34;&gt;&lt;strong&gt;禅境平台&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;技术特点&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;形象生成&lt;/li&gt;
+&lt;li&gt;动作生成（基于形象）&lt;/li&gt;
+&lt;li&gt;口型同步（在动作基础上）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;缺点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动作夸张不自然&lt;/li&gt;
+&lt;li&gt;口型匹配不完全准确&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;一整合方案&#34;&gt;&lt;strong&gt;一、整合方案：&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;各平台优势整合&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;禅境平台&lt;/strong&gt;：用于基础形象生成（质量最优）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;即梦平台&lt;/strong&gt;：用于动作生成（弥补禅境动作缺陷）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HeyGem开源方案&lt;/strong&gt;：用于最终口型同步（保证自然度）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;规避各平台弱点&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;避开禅境不自然的自动生成动作&lt;/li&gt;
+&lt;li&gt;避开HeyGen缺乏动作的局限性&lt;/li&gt;
+&lt;li&gt;避开即梦可能存在的形象生成质量波动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;二hong形象实现流程&#34;&gt;&lt;strong&gt;二、Hong形象实现流程&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;基础形象生成阶段&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;使用禅境，参考Hong形象生成了一个好看的形象（左 原Hong，右 生成新形象）&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://uxw8itet2ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NGYyZjJiZmJhZmZlMDRlNWYzZGVjZGU2Yjc2NWZlMDZfYWw3T05jNmE4NEhDaFcwWFNneXZ1Uk5pSko3OU5JRURfVG9rZW46TFQ2SmJ0SDl5b3RrNUl4TTk0c2NvY3RObndkXzE3NTQ0Njc2ODc6MTc1NDQ3MTI4N19WNA&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img&#34;
+	
+	
+&gt;&lt;img src=&#34;https://uxw8itet2ai.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2IwOTNhYTgzMTFjMmQ5M2U1YWI0Yzc2MTEzYWNjOTVfd2gwNHpuOE1uZG8wTmxQT29JVGpMU2lnM3owR1Z2RVdfVG9rZW46V1FkN2JsOHZVb3lFQTN4eVgyOGNhdzFTbjRiXzE3NTQ0Njc2ODc6MTc1NDQ3MTI4N19WNA&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;img&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;动作赋予与口型同步&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;利用即梦为两个形象赋予动作，再利用heygem完成口型同步&lt;/p&gt;
+&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://KJpObVUPNoqmSkxHoCwcouOrnZd&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;47531319&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;同步1.mp4&#34; data-lark-video-width=&#34;1920&#34; data-lark-video-height=&#34;1080&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://R98IbQ2AxofPNSxQU3LcrYL2ntb&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;64415419&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;同步2.mp4&#34; data-lark-video-width=&#34;704&#34; data-lark-video-height=&#34;1248&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;禅境动作+口型：&lt;/p&gt;
+&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://DKVabBnCioURCAxvT41cfSSRnKh&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;3867049&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;本周全球AI前沿速览.mp4&#34; data-lark-video-width=&#34;1080&#34; data-lark-video-height=&#34;1920&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+&lt;p&gt;即梦动作组2：&lt;/p&gt;
+&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://LDB3bUhPgooGpXxooJ7c3m5RnEc&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;57380766&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;同步3.mp4&#34; data-lark-video-width=&#34;1440&#34; data-lark-video-height=&#34;1440&#34;&gt;&lt;/video&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
