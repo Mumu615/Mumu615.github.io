@@ -75,40 +75,6 @@
 &lt;li&gt;避开HeyGen缺乏动作的局限性&lt;/li&gt;
 &lt;li&gt;避开即梦可能存在的形象生成质量波动&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;二hong形象实现流程&#34;&gt;&lt;strong&gt;二、Hong形象实现流程&lt;/strong&gt;
-&lt;/h3&gt;&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;基础形象生成阶段&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;使用禅境，参考Hong形象生成了一个好看的形象（左 原Hong，右 生成新形象）&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://uxw8itet2ai.feishu.cn/space/api/box/stream/download/asynccode/?code=NGYyZjJiZmJhZmZlMDRlNWYzZGVjZGU2Yjc2NWZlMDZfYWw3T05jNmE4NEhDaFcwWFNneXZ1Uk5pSko3OU5JRURfVG9rZW46TFQ2SmJ0SDl5b3RrNUl4TTk0c2NvY3RObndkXzE3NTQ0Njc2ODc6MTc1NDQ3MTI4N19WNA&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;img&#34;
-	
-	
-&gt;&lt;img src=&#34;https://uxw8itet2ai.feishu.cn/space/api/box/stream/download/asynccode/?code=Y2IwOTNhYTgzMTFjMmQ5M2U1YWI0Yzc2MTEzYWNjOTVfd2gwNHpuOE1uZG8wTmxQT29JVGpMU2lnM3owR1Z2RVdfVG9rZW46V1FkN2JsOHZVb3lFQTN4eVgyOGNhdzFTbjRiXzE3NTQ0Njc2ODc6MTc1NDQ3MTI4N19WNA&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;img&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;动作赋予与口型同步&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;利用即梦为两个形象赋予动作，再利用heygem完成口型同步&lt;/p&gt;
-&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://KJpObVUPNoqmSkxHoCwcouOrnZd&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;47531319&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;同步1.mp4&#34; data-lark-video-width=&#34;1920&#34; data-lark-video-height=&#34;1080&#34;&gt;&lt;/video&gt;&lt;/p&gt;
-&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://R98IbQ2AxofPNSxQU3LcrYL2ntb&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;64415419&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;同步2.mp4&#34; data-lark-video-width=&#34;704&#34; data-lark-video-height=&#34;1248&#34;&gt;&lt;/video&gt;&lt;/p&gt;
-&lt;p&gt;禅境动作+口型：&lt;/p&gt;
-&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://DKVabBnCioURCAxvT41cfSSRnKh&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;3867049&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;本周全球AI前沿速览.mp4&#34; data-lark-video-width=&#34;1080&#34; data-lark-video-height=&#34;1920&#34;&gt;&lt;/video&gt;&lt;/p&gt;
-&lt;p&gt;即梦动作组2：&lt;/p&gt;
-&lt;p&gt;&lt;video data-lark-video-uri=&#34;drivetoken://LDB3bUhPgooGpXxooJ7c3m5RnEc&#34; data-lark-video-mime=&#34;video/mp4&#34; data-lark-video-size=&#34;57380766&#34; data-lark-video-duration=&#34;0&#34; data-lark-video-name=&#34;同步3.mp4&#34; data-lark-video-width=&#34;1440&#34; data-lark-video-height=&#34;1440&#34;&gt;&lt;/video&gt;&lt;/p&gt;
 </description>
         </item>
         

@@ -420,6 +420,76 @@ GitHub：https://github.com/duixcom/Duix.Heygem&lt;/li&gt;
 &lt;hr&gt;
 </description>
         </item>
+        <item>
+        <title>数字人技术测试</title>
+        <link>https://mumu615.github.io/p/%E6%95%B0%E5%AD%97%E4%BA%BA%E6%8A%80%E6%9C%AF%E6%B5%8B%E8%AF%95/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/%E6%95%B0%E5%AD%97%E4%BA%BA%E6%8A%80%E6%9C%AF%E6%B5%8B%E8%AF%95/</guid>
+        <description>&lt;h2 id=&#34;开源项目功能&#34;&gt;开源项目功能
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;HeyGem、LstmSync&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术特点&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;保留原视频的所有动作&lt;/li&gt;
+&lt;li&gt;通过现有视频+音频完成对口型功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;局限性&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;依赖原始视频素材质量&lt;/li&gt;
+&lt;li&gt;无法生成新动作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;平台技术&#34;&gt;平台技术
+&lt;/h2&gt;&lt;h3 id=&#34;heygen平台&#34;&gt;&lt;strong&gt;HeyGen平台&lt;/strong&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术特点&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;有大量公用数字人&lt;/li&gt;
+&lt;li&gt;可完成对口型功能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;缺点&lt;/strong&gt;：
+&lt;ul&gt;
+&lt;li&gt;动作表现单一&lt;/li&gt;
+&lt;li&gt;缺乏肢体语言表达&lt;/li&gt;
+&lt;li&gt;无法创造动作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;禅境平台&#34;&gt;&lt;strong&gt;禅境平台&lt;/strong&gt;
+&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;技术特点&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;形象生成&lt;/li&gt;
+&lt;li&gt;动作生成（基于形象）&lt;/li&gt;
+&lt;li&gt;口型同步（在动作基础上）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;缺点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;动作夸张不自然&lt;/li&gt;
+&lt;li&gt;口型匹配不完全准确&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;一整合方案&#34;&gt;&lt;strong&gt;一、整合方案：&lt;/strong&gt;
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;各平台优势整合&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;禅境平台&lt;/strong&gt;：用于基础形象生成（质量最优）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;即梦平台&lt;/strong&gt;：用于动作生成（弥补禅境动作缺陷）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;HeyGem开源方案&lt;/strong&gt;：用于最终口型同步（保证自然度）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;规避各平台弱点&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;避开禅境不自然的自动生成动作&lt;/li&gt;
+&lt;li&gt;避开HeyGen缺乏动作的局限性&lt;/li&gt;
+&lt;li&gt;避开即梦可能存在的形象生成质量波动&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
         
     </channel>
 </rss>
