@@ -8,6 +8,140 @@
         <language>zh-cn</language>
         <copyright>可乐Club</copyright>
         <lastBuildDate>Wed, 06 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://mumu615.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Bili Tools项目</title>
+        <link>https://mumu615.github.io/p/bili-tools%E9%A1%B9%E7%9B%AE/</link>
+        <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://mumu615.github.io/p/bili-tools%E9%A1%B9%E7%9B%AE/</guid>
+        <description>&lt;p&gt;哔哩哔哩（B站）早已成为我们获取知识、娱乐放松、连接同好的重要平台。无论是精彩纷呈的番剧、干货满满的学习视频，还是脑洞大开的UP主创作，都让人流连忘返。但你是否遇到过这些问题：想收藏高清视频却苦于官方限制？想快速下载直播回放？想轻松获取视频封面或字幕？今天，就为大家介绍一款强大的开源利器——&lt;strong&gt;Bili Tools&lt;/strong&gt;，它就像一个专为B站打造的瑞士军刀，助你轻松解决这些烦恼，提升B站使用体验！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;什么是 Bili Tools？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Bili Tools 是一个由开发者社区维护的&lt;strong&gt;开源、多功能、命令行工具集合&lt;/strong&gt;，专为处理与Bilibili相关的各种任务而设计。它的核心目标是提供一个&lt;strong&gt;高效、灵活、可扩展&lt;/strong&gt;的方式，帮助用户便捷地获取和处理B站上的内容。它基于Python开发，意味着它拥有良好的跨平台兼容性（Windows, macOS, Linux均可运行）。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;核心亮点与功能：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Bili Tools 的强大之处在于其功能的丰富性和实用性：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;📥 视频下载（核心功能）：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;支持多种清晰度：&lt;/strong&gt; 从流畅到1080P、4K甚至杜比视界/HDR（如果视频源提供且登录有权限），你可以自由选择想要的画质下载。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;灵活下载范围：&lt;/strong&gt; 支持下载单个视频、整个投稿（包含P1, P2&amp;hellip;）、UP主的所有投稿（需谨慎，量大）、收藏夹、频道合集、甚至整个追番列表。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;格式选择：&lt;/strong&gt; 通常提供&lt;code&gt;.mp4&lt;/code&gt;（视频+音频合并）或&lt;code&gt;.flv&lt;/code&gt;格式下载。部分工具支持分离下载视频流和音频流。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;多线程加速：&lt;/strong&gt; 充分利用网络带宽，大幅提升下载速度。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;📡 直播相关：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;直播回放下载：&lt;/strong&gt; 轻松下载你错过的直播录像（如果主播开启了回放功能）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;直播流录制 (部分工具/脚本)：&lt;/strong&gt; 可以实时录制正在进行的直播（需要稳定运行环境）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;🖼️ 资源提取：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;封面图下载：&lt;/strong&gt; 一键获取视频的高清封面图片。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;弹幕下载：&lt;/strong&gt; 保存.xml或.json格式的弹幕文件，用于分析或本地播放。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;字幕下载：&lt;/strong&gt; 获取视频的CC字幕（如果存在），方便学习或翻译。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;音频提取：&lt;/strong&gt; 从视频中单独提取音频文件（如.mp3），方便在音乐播放器收听。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;🔍 信息查询：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;获取视频详细信息：&lt;/strong&gt; 查看视频的标题、UP主、播放量、弹幕量、发布时间、简介、分P信息、可用清晰度等元数据。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;查询用户/UP主信息：&lt;/strong&gt; 获取用户昵称、签名、粉丝数、投稿数等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;⚙️ 高级特性 (取决于具体工具/配置)：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;登录支持：&lt;/strong&gt; 通过提供Cookie或扫码登录，可以访问需要登录权限的内容（如高清晰度、付费视频/课程 - &lt;strong&gt;请务必遵守B站用户协议和版权规定！&lt;/strong&gt;）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;下载历史管理：&lt;/strong&gt; 记录已下载内容，避免重复下载。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;代理设置：&lt;/strong&gt; 方便在特定网络环境下使用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;任务队列：&lt;/strong&gt; 批量添加下载任务，按顺序或并行执行。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强大的自定义性：&lt;/strong&gt; 通过命令行参数或配置文件，可以精细控制下载行为（如选择编码、指定保存路径、重命名规则等）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;为什么选择 Bili Tools？&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;免费开源：&lt;/strong&gt; 完全免费使用，代码公开透明，社区驱动更新，安全可靠。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;功能强大且专注：&lt;/strong&gt; 专为B站深度定制，覆盖了用户对B站内容处理的绝大多数需求。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;高效命令行：&lt;/strong&gt; 对于熟悉命令行的用户来说，操作极其高效快捷，易于集成到自动化脚本中。也有开发者为其开发了图形界面 (GUI) 前端（需自行搜索）。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;持续更新：&lt;/strong&gt; 活跃的开发者社区会持续跟进B站接口的变化，及时修复和更新工具。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;跨平台：&lt;/strong&gt; Python的特性使其能在主流操作系统上运行。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;如何获取与使用？&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;环境准备：&lt;/strong&gt; 确保你的系统安装了 &lt;strong&gt;Python (推荐 Python 3.7 或更高版本)&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;安装 Bili Tools：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;最常用的安装方式是通过 Python 的包管理工具 &lt;code&gt;pip&lt;/code&gt;。打开终端 (命令提示符 / PowerShell / Terminal) 输入：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pip install bili-tools
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 或者有时项目名可能有差异，请以项目主页为准，常见的有：&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# pip install bili&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# pip install bilix&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;重要：&lt;/strong&gt; 由于“Bili Tools”可能指代不同的具体开源项目（如 &lt;code&gt;bilix&lt;/code&gt; 是目前非常活跃且功能强大的一个），请务必查阅该项目的官方文档获取最准确的安装和使用说明。通常可以在 GitHub 上搜索 &lt;code&gt;bili-tools&lt;/code&gt;, &lt;code&gt;bili-downloader&lt;/code&gt;, &lt;code&gt;bilix&lt;/code&gt; 等关键词找到它们。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;基本使用：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;安装后，通常使用 &lt;code&gt;bili&lt;/code&gt; 或 &lt;code&gt;bilix&lt;/code&gt; 等命令启动工具。&lt;/li&gt;
+&lt;li&gt;基础命令示例 (下载单个视频)：
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bili download https://www.bilibili.com/video/BV1xx411x7xx
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# 或 (取决于具体工具命令)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;bilix get_video https://www.bilibili.com/video/BV1xx411x7xx
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;强烈建议阅读官方文档：&lt;/strong&gt; 文档会详细介绍所有命令、参数选项（如 &lt;code&gt;-q&lt;/code&gt; 指定清晰度, &lt;code&gt;-p&lt;/code&gt; 指定下载路径, &lt;code&gt;--cookie&lt;/code&gt; 设置登录信息等）和示例。这是熟练使用的关键！&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;使用注意事项：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;尊重版权！&lt;/strong&gt; Bili Tools 是技术工具，请务必遵守 Bilibili 的用户协议和相关的版权法律法规。&lt;strong&gt;仅下载用于个人学习、研究和欣赏，严禁用于任何商业目的或未经授权的传播。&lt;/strong&gt; 下载付费内容更需谨慎，确保你有访问权限。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;遵守平台规则：&lt;/strong&gt; 过度频繁或大规模的请求可能违反 B 站的服务条款，可能导致你的账号或 IP 受到限制。请合理使用。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;关注项目更新：&lt;/strong&gt; B 站接口时有变动，关注项目 GitHub 主页或社区动态，及时更新工具版本以保证功能正常。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;命令行门槛：&lt;/strong&gt; 对于不熟悉命令行的用户，初始学习有一定曲线。可以寻找社区提供的 GUI 前端。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;结语：&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Bili Tools 为 B 站用户打开了一扇高效管理、获取内容的大门。无论是想保存心爱的视频离线观看、收集学习资料、还是进行弹幕分析，它都能提供强大的支持。其开源免费、功能专注、持续更新的特性使其在众多 B 站工具中脱颖而出。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;相关链接 (示例，请替换为实际项目地址)：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/HFrost0/bilix&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bilix GitHub 项目主页&lt;/a&gt; (一个功能强大的 Bili Tools 实现)&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/protocal/licence.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Bilibili 用户协议&lt;/a&gt; (请务必阅读并遵守)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;使用提示：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;请将 &lt;code&gt;[bilix GitHub 项目主页]&lt;/code&gt; 和 &lt;code&gt;[其他项目主页]&lt;/code&gt; 替换成你实际推荐的、当前活跃的 Bili Tools 实现（如 &lt;code&gt;bilix&lt;/code&gt;）的 GitHub 链接。&lt;/li&gt;
+&lt;li&gt;强调“尊重版权”和“遵守平台规则”的部分非常重要，务必保留。&lt;/li&gt;
+&lt;li&gt;可以根据你想重点推荐的具体工具（如 bilix）微调文章中的命令示例和项目名称。&lt;/li&gt;
+&lt;li&gt;对于纯小白用户，可以提一句“也有爱好者开发了基于这些工具的图形界面(GUI)，可以在网上搜索尝试”，但文章核心还是介绍命令行工具本身。&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        <item>
         <title>Github开源分享Vol.001</title>
         <link>https://mumu615.github.io/p/github%E5%BC%80%E6%BA%90%E5%88%86%E4%BA%ABvol.001/</link>
         <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
