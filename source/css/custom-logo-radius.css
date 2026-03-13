@@ -1,0 +1,21 @@
+#site-name img,
+.card-widget.card-info .avatar img,
+.author-avatar,
+.loading-img,
+footer img.solitude.nolazyload {
+  border-radius: 18px;
+}
+
+.card-widget.card-info .avatar img,
+.author-avatar {
+  border-radius: 50%;
+}
+
+#site-name img {
+  border-radius: 14px;
+}
+
+.loading-img,
+footer img.solitude.nolazyload {
+  border-radius: 16px;
+}
