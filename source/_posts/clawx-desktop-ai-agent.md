@@ -1,5 +1,6 @@
 ---
 title: ClawX：把 OpenClaw AI Agent 变成人人可用的桌面应用
+slug: clawx-desktop-ai-agent
 date: 2026-03-13 11:53:00
 categories:
  - 开源项目分享
@@ -82,3 +83,8 @@ ClawX 采用 Electron 双进程架构：
 **ClawX 的价值，不是重新发明 Agent，而是把 OpenClaw 的能力产品化、可视化、普及化。**
 
 如果你希望把 AI Agent 真正纳入日常工作流，而不是停留在“会玩命令”的少数人手里，这个项目很值得关注。
+
+## 延伸阅读
+
+- 如果你想看更偏服务端、容器化的 Agent 路线，可以继续看 [AutoClaw：面向容器与批量部署的 Headless Agent 框架](/2026/03/13/autoclaw-headless-agent/)
+- 如果你正在搭建 OpenClaw 的运营控制面，可以继续看 [OpenClaw Control Center：安全优先的本地 OpenClaw 控制台](/2026/03/13/openclaw-control-center-console/)

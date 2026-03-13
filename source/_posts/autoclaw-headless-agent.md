@@ -1,5 +1,6 @@
 ---
 title: AutoClaw：面向容器与批量部署的 Headless Agent 框架
+slug: autoclaw-headless-agent
 date: 2026-03-13 11:54:00
 categories:
  - 开源项目分享
@@ -83,3 +84,8 @@ AutoClaw 的价值在于：
 **它不追求“最炫交互”，而是追求“最稳执行”。**
 
 如果你的核心诉求是规模化、可重复、可编排的 Agent 自动化，而不是桌面可视化操作，这个项目值得重点关注。
+
+## 延伸阅读
+
+- 如果你更关注桌面端可用性，可以继续看 [ClawX：把 OpenClaw AI Agent 变成人人可用的桌面应用](/2026/03/13/clawx-desktop-ai-agent/)
+- 如果你想看 OpenClaw 的管理与运维侧能力，可以继续看 [OpenClaw Control Center：安全优先的本地 OpenClaw 控制台](/2026/03/13/openclaw-control-center-console/)

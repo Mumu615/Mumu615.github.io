@@ -37,19 +37,15 @@ nav:
   # Menu
   # 菜单
   menu:
-    # 首页: / # name: link
-    # 文章: # name
-    #   归档: /archives/ || fas fa-folder-closed # item name: link || icon
-    #   分类: /categories/ || fas fa-clone
-    #   标签: /tags/ || fas fa-tags
-    # 友链:
-    #   朋友圈: /moments/ || fas fa-wifi
-    #   友情链接: /links/ || fas fa-user-group
-    #   宝藏博主: javascript:travelling() || fas fa-gift
-    # 我的:
-    #   关于: /about/ || fas fa-user
-    #   装备: /kit/ || fas fa-laptop
-    #   音乐馆: /music/ || fas fa-music
+    首页: /
+    开源项目:
+      归档: /archives/ || fas fa-folder-closed
+      分类: /categories/ || fas fa-clone
+      标签: /tags/ || fas fa-tags
+    热门内容:
+      MediaCrawler: /2026/03/13/media-crawler-social-data-tool/ || fas fa-fire
+      ClawX: /2026/03/13/clawx-desktop-ai-agent/ || fas fa-desktop
+      AutoClaw: /2026/03/13/autoclaw-headless-agent/ || fas fa-robot
 
   # Right button
   # 右侧按钮
@@ -69,9 +65,11 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 分享技术<br >与科技生活 # 大字
+    title: 聚焦 AI 资源<br >与开源项目实践 # 大字
     desc:
-      一个热爱生活的人 # 小字
+      - 分享可复用的 AI 资源与工具
+      - 记录 AI Agent 与自动化实践
+      - 持续更新值得关注的 GitHub 开源项目
       # - 我只是一个普通的程序员
       # - 但我有一个不平凡的梦想
       # - 我希望能够改变世界
@@ -95,12 +93,14 @@ hometop:
       #   img: https://i.postimg.cc/nhgjwjCS/git.png
       #   color: "#df5b40"
   group:
-    # 热门: /tags/Fire/ || fas fa-fire || linear-gradient(to right,#f65,#ffbf37)
+    AI Agent: /tags/AI-Agent/ || fas fa-robot || linear-gradient(to right,#ff8a00,#ffb347)
+    开源项目: /categories/开源项目分享/ || fas fa-folder-open || linear-gradient(to right,#247ba0,#70c1b3)
+    自动化: /tags/自动化/ || fas fa-bolt || linear-gradient(to right,#3a86ff,#00b4d8)
   recommendList:
     enable: true
     sup: 置顶
-    title: Solitude 官方文档
-    url: https://solitude.js.org/
+    title: MediaCrawler：一站式社媒内容采集开源工具实战
+    url: /2026/03/13/media-crawler-social-data-tool/
     img: /img/default.avif
     color: "none"
 # --------------------------- end ---------------------------

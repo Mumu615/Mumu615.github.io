@@ -1,5 +1,6 @@
 ---
 title: OpenClaw Control Center：安全优先的本地 OpenClaw 控制台
+slug: openclaw-control-center-console
 date: 2026-03-13 11:52:00
 categories:
  - 开源项目分享
@@ -83,3 +84,8 @@ OpenClaw Control Center 的定位就是：
 **openclaw-control-center** 不是通用 Agent 平台，而是一个针对 OpenClaw 场景打磨的“控制中枢”。
 
 如果你希望把 OpenClaw 从“能用”进化到“可观测、可管理、可解释”，这个项目非常值得纳入你的工具栈。
+
+## 延伸阅读
+
+- 如果你想看更偏桌面用户体验的一侧，可以继续看 [ClawX：把 OpenClaw AI Agent 变成人人可用的桌面应用](/2026/03/13/clawx-desktop-ai-agent/)
+- 如果你更关注服务端稳定执行，可以继续看 [AutoClaw：面向容器与批量部署的 Headless Agent 框架](/2026/03/13/autoclaw-headless-agent/)

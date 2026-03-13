@@ -1,5 +1,6 @@
 ---
 title: MediaCrawler：一站式社媒内容采集开源工具实战
+slug: media-crawler-social-data-tool
 date: 2026-03-13 11:41:00
 categories:
  - 开源项目分享
@@ -70,3 +71,8 @@ keywords:
 **延伸阅读建议**：
 - 把采集结果接入词云与主题聚类，做“选题池自动更新”
 - 用固定周期抓取，建立账号/话题的趋势时间线
+
+## 延伸阅读
+
+- 如果你正在关注 AI Agent 工具链，也可以继续看 [ClawX：把 OpenClaw AI Agent 变成人人可用的桌面应用](/2026/03/13/clawx-desktop-ai-agent/)
+- 如果你想看更偏自动化执行的开源项目，可以继续看 [AutoClaw：面向容器与批量部署的 Headless Agent 框架](/2026/03/13/autoclaw-headless-agent/)
