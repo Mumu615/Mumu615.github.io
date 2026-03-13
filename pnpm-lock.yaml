@@ -41,6 +41,9 @@ importers:
       hexo-theme-landscape:
         specifier: ^1.0.0
         version: 1.1.0
+      hexo-theme-solitude:
+        specifier: ^3.0.21
+        version: 3.0.21
       hexo-util:
         specifier: ^4.0.0
         version: 4.0.0
@@ -502,6 +505,9 @@ packages:
 
   hexo-theme-landscape@1.1.0:
     resolution: {integrity: sha512-nszjixBEiEDZjf7glAGbHg0nKGHZdUDwzFVVdRDeu4FeHfGcY5CZNl9sF4vSligjnD8IwFXpDfx5E+GRmNKvWg==}
+
+  hexo-theme-solitude@3.0.21:
+    resolution: {integrity: sha512-kTOC2Bsyjz7sNhC/q0pUAcl+SUCnYDLtl4nJUNY/CmcjB93uJBJQiq5M8bueOcpVVjslb8P9jbYAWutCKuD33A==}
 
   hexo-util@3.3.0:
     resolution: {integrity: sha512-YvGngXijE2muEh5L/VI4Fmjqb+/yAkmY+VuyhWVoRwQu1X7bmWodsfYRXX7CUYhi5LqsvH8FAe/yBW1+f6ZX4Q==}
@@ -1533,6 +1539,13 @@ snapshots:
       - supports-color
 
   hexo-theme-landscape@1.1.0: {}
+
+  hexo-theme-solitude@3.0.21:
+    dependencies:
+      hexo-renderer-pug: 3.0.0
+      hexo-renderer-stylus: 3.0.1
+    transitivePeerDependencies:
+      - supports-color
 
   hexo-util@3.3.0:
     dependencies:
