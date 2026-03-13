@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 河狸玩科技 | 打破信息差，记录与表达
-subtitle: ''
-description: 打破信息差，记录与表达
-keywords:
-author: John Doe
+title: 沐辰同学
+subtitle: '打破信息差，记录与表达'
+description: 聚焦 AI 资源、AI Agent、开源项目和自动化实践，分享可复用、可落地的工具分析与实战记录。
+keywords: AI资源, AI Agent, 开源项目, 自动化, GitHub项目分享, AI工具, 沐辰同学
+author: 沐辰同学
 language: zh-CN
-timezone: ''
+timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -102,3 +102,9 @@ theme: solitude
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+sitemap:
+  path: sitemap.xml
+  rel: false
+  tags: true
+  categories: true

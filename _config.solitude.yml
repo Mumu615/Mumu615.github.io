@@ -20,7 +20,7 @@
 site:
   name:
     class: img # text / i_class / img
-    custom: /img/site-logo.png # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    custom: /img/logo.png # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: /img/site-logo.png # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
@@ -67,7 +67,7 @@ nav:
 # Home Top Banner
 # 首页顶部
 hometop:
-  enable: false
+  enable: true
   banner:
     title: 分享技术<br >与科技生活 # 大字
     desc:
@@ -131,10 +131,10 @@ aside:
   # 信息卡
   my_card:
     author:
-      img: /img/site-logo.png # url
+      img: /img/logo.png # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
-    description: 只有迎风，风筝才能飞得更高。
+    description: 分享 AI 资源、开源项目和自动化实践。
     # 内容 / Content
     content: # 这是我的博客 / This is my Blog
     state:
@@ -241,7 +241,7 @@ post:
     # 版权
     copyright:
       enable: true
-      author: /img/site-logo.png # url
+      author: /img/logo.png # url
       # License
       # 许可证
       license: CC BY-NC-SA 4.0

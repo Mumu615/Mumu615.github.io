@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mumu615.github.io/sitemap.xml
