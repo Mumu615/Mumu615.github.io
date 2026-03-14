@@ -1,0 +1,94 @@
+extends ../themes/solitude/layout/includes/layout
+
+block content
+  - const groups = (site.data && site.data.links && site.data.links.links) ? site.data.links.links : []
+  - const totalLinks = groups.reduce((sum, group) => sum + ((group.link_list && group.link_list.length) || 0), 0)
+  main.layout.nav-directory-layout.hide-aside#content-inner
+    .nav-directory-page
+      section.nav-directory-hero
+        .nav-directory-hero__main
+          .nav-directory-hero__stats
+            .nav-directory-stat
+              span.nav-directory-stat__num= groups.length
+              span.nav-directory-stat__label 个分类
+            .nav-directory-stat
+              span.nav-directory-stat__num= totalLinks
+              span.nav-directory-stat__label 个入口
+            .nav-directory-stat
+              span.nav-directory-stat__num Workflow
+              span.nav-directory-stat__label 持续更新
+
+      section.nav-directory-toolbar
+        .nav-directory-search
+          i.fas.fa-magnifying-glass
+          input#nav-directory-search(type='search' placeholder='搜索网站名、描述或分类')
+        .nav-directory-pills
+          button.nav-directory-pill.is-active(type='button' data-filter='all') 全部
+          each group in groups
+            button.nav-directory-pill(type='button' data-filter=group.class_name)= group.class_name
+
+      section#nav-directory-groups.nav-directory-groups
+        each group, groupIndex in groups
+          .nav-directory-group(data-group=group.class_name)
+            .nav-directory-group__head
+              .nav-directory-group__titlebox
+                h2.nav-directory-group__title= group.class_name
+              p.nav-directory-group__desc= group.descr
+            .nav-directory-card-grid
+              each item in group.link_list
+                a.nav-directory-card(href=item.link target='_blank' rel='noopener' data-title=item.name data-desc=item.descr data-group=group.class_name)
+                  .nav-directory-card__top
+                    img.nav-directory-card__icon(src=item.avatar alt=item.name loading='lazy')
+                    span.nav-directory-card__badge= group.class_name
+                  h3.nav-directory-card__title= item.name
+                  p.nav-directory-card__desc= item.descr
+    script(data-pjax).
+      (() => {
+        const initNavDirectory = () => {
+          const root = document.querySelector('.nav-directory-page');
+          if (!root) return;
+
+          const searchInput = root.querySelector('#nav-directory-search');
+          const pills = Array.from(root.querySelectorAll('.nav-directory-pill'));
+          const groups = Array.from(root.querySelectorAll('.nav-directory-group'));
+
+          let activeFilter = 'all';
+
+          const applyFilter = () => {
+            const keyword = (searchInput?.value || '').trim().toLowerCase();
+
+            groups.forEach(group => {
+              const groupName = (group.dataset.group || '').toLowerCase();
+              let visibleCount = 0;
+
+              group.querySelectorAll('.nav-directory-card').forEach(card => {
+                const title = (card.dataset.title || '').toLowerCase();
+                const desc = (card.dataset.desc || '').toLowerCase();
+                const cardGroup = (card.dataset.group || '').toLowerCase();
+                const matchKeyword = !keyword || title.includes(keyword) || desc.includes(keyword) || cardGroup.includes(keyword);
+                const matchFilter = activeFilter === 'all' || groupName === activeFilter.toLowerCase();
+                const visible = matchKeyword && matchFilter;
+                card.style.display = visible ? '' : 'none';
+                if (visible) visibleCount += 1;
+              });
+
+              group.style.display = visibleCount > 0 ? '' : 'none';
+            });
+          };
+
+          pills.forEach(pill => {
+            pill.addEventListener('click', () => {
+              activeFilter = pill.dataset.filter || 'all';
+              pills.forEach(item => item.classList.remove('is-active'));
+              pill.classList.add('is-active');
+              applyFilter();
+            });
+          });
+
+          searchInput?.addEventListener('input', applyFilter);
+          applyFilter();
+        };
+
+        initNavDirectory();
+        document.addEventListener('pjax:complete', initNavDirectory, { once: true });
+      })();
