@@ -19,8 +19,8 @@
 # 网站信息
 site:
   name:
-    class: img # text / i_class / img
-    custom: /img/logo.png # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    class: text # text / i_class / img
+    custom: 沐辰同学 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: /img/site-logo.png # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
@@ -31,13 +31,17 @@ nav:
   # Left Box
   # 左侧盒子
   group:
-  #  project: # name
-  #    Solitude: https://github.com/everfu/hexo-theme-solitude || /img/pwa/favicon.ico # name: url || icon
+    Me:
+      记录: /docs/ || /img/日记.png # name: url || icon
+      技能树: /skill-tree/ || /img/技能树.png # name: url || icon
+    开源项目: # name
+      开发中: https://github.com/everfu/hexo-theme-solitude || /img/开发.png # name: url || icon
 
   # Menu
   # 菜单
   menu:
     首页: /
+    导航站: /nav/index.html
     开源项目:
       归档: /archives/ || fas fa-folder-closed
       分类: /categories/ || fas fa-clone
@@ -70,28 +74,16 @@ hometop:
       - 分享可复用的 AI 资源与工具
       - 记录 AI Agent 与自动化实践
       - 持续更新值得关注的 GitHub 开源项目
-      # - 我只是一个普通的程序员
-      # - 但我有一个不平凡的梦想
-      # - 我希望能够改变世界
     icon:
-      # HTML: # name
-      #   img: https://i.postimg.cc/vBWVnY8q/html.png # url
-      #   color: "#e9572b" # color
-      # JS:
-      #   img: https://i.postimg.cc/3N10Ltv2/js.png
-      #   color: "#f7cb4f"
-      # Docker:
-      #   img: https://i.postimg.cc/8Pk6Fg24/docker.png
-      #   color: "#57b6e6"
-      # Flutter:
-      #   img: https://i.postimg.cc/hPC7T3gB/flutter.png
-      #   color: "#ffffff"
-      # WebPack:
-      #   img: https://i.postimg.cc/dVLZBmtT/webpack.png
-      #   color: "#2e3a41"
-      # Git:
-      #   img: https://i.postimg.cc/nhgjwjCS/git.png
-      #   color: "#df5b40"
+      AI Agent:
+        img: /img/logo.png
+        color: "#5b6cff"
+      GitHub:
+        img: /img/site-logo.png
+        color: "#ff9f1c"
+      自动化:
+        img: /img/default.avif
+        color: "#2ec4b6"
   group:
     AI Agent: /tags/AI-Agent/ || fas fa-robot || linear-gradient(to right,#ff8a00,#ffb347)
     开源项目: /categories/开源项目分享/ || fas fa-folder-open || linear-gradient(to right,#247ba0,#70c1b3)
@@ -101,7 +93,7 @@ hometop:
     sup: 置顶
     title: MediaCrawler：一站式社媒内容采集开源工具实战
     url: /2026/03/13/media-crawler-social-data-tool/
-    img: /img/default.avif
+    img: /img/logo.png
     color: "none"
 # --------------------------- end ---------------------------
 
@@ -115,7 +107,7 @@ aside:
   # Sticky: Fixed position / noSticky: Not fixed position
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # on the homepage
-    noSticky: "about"
+    noSticky: "about,newestPost"
     Sticky: "allInfo"
   post: # on the article page
     noSticky: "about"
@@ -134,9 +126,9 @@ aside:
       img: /img/logo.png # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
-    description: 分享 AI 资源、开源项目和自动化实践。
+    description: 帮你更快获取 AI 资源、开源工具和自动化实践思路。
     # 内容 / Content
-    content: # 这是我的博客 / This is my Blog
+    content: 这里持续更新 AI Agent、开源项目、自动化工具和可复用资源。
     state:
       morning: ✨ 早上好，新的一天开始了
       noon: 🍲 午餐时间
@@ -150,8 +142,9 @@ aside:
     # social
     # 社交信息图标
     information:
-    #  Github: https://github.com/everfu || fab fa-github # Name: link || icon
-    #  Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
+      GitHub: https://github.com/Mumu615 || fab fa-github
+      Archives: /archives/ || fas fa-box-archive
+      Categories: /categories/ || fas fa-folder-tree
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -167,11 +160,14 @@ aside:
   # Tags
   # 标签
   tags:
-    enable: false
+    enable: true
     limit: 20 # Number of tags displayed
     # Highlighted tags
     highlight_list:
-      # - Hexo
+      - AI Agent
+      - 自动化
+      - OpenClaw
+      - GitHub
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -222,7 +218,7 @@ page:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      # - /img/default.png # 默认图片 / default cover
+      - /img/default.avif # 默认图片 / default cover
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -233,7 +229,7 @@ post:
     # Default image when no cover is set
     # 未设置封面时的默认图片
     cover:
-      # - /img/default.avif # 默认图片 / default cover
+      - /img/default.avif # 默认图片 / default cover
     # Location
     # 位置
     locate: China
@@ -295,7 +291,7 @@ post:
   # Share icon
   # 分享图标
   share:
-    enable: false
+    enable: true
     list:
       # - qq
       # - weibo
@@ -318,12 +314,12 @@ post:
     # Storage / 缓存时间
     time: 43200000
   footer:
-    enable: false
-    desc: # Articles from Ever Fu. / 文章来自 Ever Fu # description
+    enable: true
+    desc: 这篇内容来自沐辰同学，持续分享 AI 资源、开源项目与自动化实践。
     button: # Button
       enable: true
-      name: # Learn more / 了解更多
-      url: /about/
+      name: 查看全部文章
+      url: /archives/
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -404,16 +400,16 @@ related_post:
 # Custom right menu
 # 自定义右键菜单
 right_menu:
-  enable: false
+  enable: true
   # Whether to display the hot comment switch.
   # 是否显示热门评论开关
-  commentBarrage: false
+  commentBarrage: true
   # Whether to display the browser's context menu when hold Ctrl key.
   # 是否在按住 Ctrl 键时显示浏览器右键菜单
-  ctrlOriginalMenu: false
+  ctrlOriginalMenu: true
   # Simplified and Traditional Chinese translation.
   # 简繁体转换
-  translate: false
+  translate: true
   # Custom list
   # 自定义列表
   custom_list:
@@ -470,7 +466,7 @@ typeit: false
 # Console
 # 控制台
 console:
-  enable: false
+  enable: true
   # Recent comments
   # 最新评论
   recentComment:
@@ -498,8 +494,8 @@ translate:
 # Right-Sidebar
 # 右下角悬停导航栏
 rightside:
-  enable: false
-  percent: false
+  enable: true
+  percent: true
   hide:
     enable: false
     translate: false
@@ -513,23 +509,23 @@ rightside:
 footer:
   # 社交图标
   information:
-    author: false # img url / false
+    author: /img/logo.png # img url / false
     left:
-      # Github: https://github.com/everfu || fab fa-github # 名称: 链接 || 图标
-      # Mail: mailto:o@everfu.org || far fa-envelope
+      GitHub: https://github.com/Mumu615 || fab fa-github
+      分类: /categories/ || fas fa-folder-tree
     right:
-      # Bilibili: https://space.bilibili.com/1329819902 || fab fa-bilibili
-      # Douyin: https://v.douyin.com/iJsLc8jt/ || fab fa-tiktok
+      归档: /archives/ || fas fa-box-archive
+      标签: /tags/ || fas fa-tags
   # 友情链接
   group:
-    # 导航:
-    #   Archives: /archives/
-    #   Categories: /categories/
-    #   Tags: /tags/
-    # 排列:
-    #   Cookies: /cookies/
-    #   Privacy: /privacy/
-    #   Copyright: /copyright/
+    导航:
+      全部文章: /archives/
+      项目分类: /categories/
+      热门标签: /tags/
+    专题:
+      AI Agent: /tags/AI-Agent/
+      自动化: /tags/自动化/
+      开源项目: /categories/开源项目分享/
 
   # 随机友链
   randomlink: false # 随机友链
@@ -544,18 +540,14 @@ footer:
 
   # 页脚信息文字
   links:
-    # - name: RSS
-    #   url: /atom.xml
-    # - name: License
-    #   url: https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE
-    #   icon:
-    #     - fas fa-copyright
-    #     - fab fa-creative-commons-by
-    #     - fab fa-creative-commons-nc
-    #     - fab fa-creative-commons-nd
-    # - name: boringbay
-    #   url: https://boringbay.com/
-    #   img: https://boringbay.com/api/badge/www.efu.me
+    - name: Sitemap
+      url: /sitemap.xml
+      icon:
+        - fas fa-sitemap
+    - name: Robots
+      url: /robots.txt
+      icon:
+        - fas fa-robot
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -631,7 +623,7 @@ loading:
   fullpage: false
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
-  favicon: /img/site-logo.png
+  favicon: /img/logo.png
   # Pace loading
   # Pace 加载
   pace: true
@@ -661,10 +653,10 @@ highlight:
 # --------------------------- start ---------------------------
 # Lightbox
 # 图片灯箱
-lightbox: false
+lightbox: true
 # warning: Please select any one, but cannot be turned on at the same time.
 # 警告: 请任选其一，但不能同时开启。
-fancybox: false # fancybox
+fancybox: true # fancybox
 mediumZoom: false # mediumZoom
 # --------------------------- end ---------------------------
 
@@ -740,6 +732,8 @@ extends:
   # 插入到 head
   head:
     - <link rel="stylesheet" href="/css/custom-logo-radius.css">
+    - <link rel="stylesheet" href="/css/custom-homepage.css">
+    - <link rel="stylesheet" href="/css/custom-nav-directory.css">
   #  - <script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script>
 
   # Insert in body
@@ -837,8 +831,8 @@ giscus:
 # --------------------------- start ---------------------------
 # Search
 search:
-  enable: false
-  type: # local / algolia / docsearch
+  enable: true
+  type: local # local / algolia / docsearch
   tags:
     # - Solitude
     # - Hexo

@@ -108,3 +108,9 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html

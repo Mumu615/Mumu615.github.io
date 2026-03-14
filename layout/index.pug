@@ -1,0 +1,108 @@
+extends ../themes/solitude/layout/includes/layout
+
+include ../themes/solitude/layout/includes/mixins/common.pug
+
+mixin homeTop()
+  +conditionalWrapper(theme.hometop.enable || (theme.brevity.home_mini && theme.brevity.enable))
+    #home_top
+      if theme.brevity.home_mini && theme.brevity.enable
+        include ../themes/solitude/layout/includes/widgets/home/bbTimeList
+      if theme.hometop.enable && is_home_first_page()
+        include ../themes/solitude/layout/includes/widgets/home/hometop
+
+mixin categoryBar()
+  #category-bar
+    include ../themes/solitude/layout/includes/widgets/home/categoryBar
+
+mixin postsList()
+  .recent-posts#recent-posts
+    if theme.comment.hot_tip.enable
+      include ../themes/solitude/layout/includes/widgets/third-party/hot/index.pug
+
+    each post, index in page.posts.sort("-sticky" || "-date").data
+      include ../themes/solitude/layout/includes/widgets/home/postList
+
+    include ../themes/solitude/layout/includes/mixins/pagination
+
+mixin customSections()
+  if is_home_first_page()
+    - const latestPosts = (site.posts && site.posts.data) ? site.posts.data.slice(0, 6) : []
+    - const featuredPosts = latestPosts.slice(0, 3)
+    - const getByTag = name => latestPosts.filter(post => post.tags && post.tags.data && post.tags.data.some(tag => tag.name === name)).slice(0, 2)
+    - const topicGroups = [
+    -   { title: 'AI Agent', desc: '聚焦 Agent 工具、工作流与可落地场景', link: '/tags/AI-Agent/', posts: getByTag('AI Agent') },
+    -   { title: '自动化实践', desc: '偏执行链路、批处理、流程编排与效率放大', link: '/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/', posts: getByTag('自动化') },
+    -   { title: '开源项目', desc: '持续整理值得关注的 GitHub 开源项目', link: '/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%E5%88%86%E4%BA%AB/', posts: latestPosts.slice(0, 2) }
+    - ]
+    section.custom-home-hero
+      .custom-home-hero__main
+        .custom-home-hero__eyebrow AI Resource Notes
+        h1.custom-home-hero__title 让 AI 从工具变成资源
+        p.custom-home-hero__desc 这里专注整理 AI Agent、开源项目、自动化实践和一手工具资源，帮你快速建立可复用的知识与执行体系。
+        .custom-home-hero__actions
+          a.custom-home-btn.custom-home-btn--primary(href='/archives/') 查看全部文章
+          a.custom-home-btn.custom-home-btn--ghost(href='/categories/') 进入专题分类
+        .custom-home-hero__stats
+          .custom-home-stat
+            span.custom-home-stat__num= site.posts.length || latestPosts.length
+            span.custom-home-stat__label 篇内容
+          .custom-home-stat
+            span.custom-home-stat__num 3
+            span.custom-home-stat__label 核心专题
+          .custom-home-stat
+            span.custom-home-stat__num GitHub
+            span.custom-home-stat__label 持续追踪
+      .custom-home-hero__side
+        .custom-home-sidecard
+          .custom-home-sidecard__label 本站定位
+          .custom-home-sidecard__title 打破信息差，记录与表达
+          ul.custom-home-sidecard__list
+            li AI Agent 工具观察
+            li 开源项目拆解与分享
+            li 自动化实践与资源沉淀
+
+    if featuredPosts.length
+      section.custom-home-section
+        .custom-home-section__head
+          .custom-home-section__eyebrow Featured
+          h2.custom-home-section__title 大卡推荐区
+          a.custom-home-section__link(href='/archives/') 更多文章
+        .custom-feature-grid
+          each post in featuredPosts
+            a.custom-feature-card(href=url_for(post.path))
+              .custom-feature-card__meta
+                span 推荐阅读
+                if post.categories && post.categories.data && post.categories.data.length
+                  span= post.categories.data[0].name
+              h3.custom-feature-card__title= post.title
+              p.custom-feature-card__desc= post.description || post.excerpt || '点击查看完整内容'
+
+    section.custom-home-section
+      .custom-home-section__head
+        .custom-home-section__eyebrow Topics
+        h2.custom-home-section__title 专题分栏
+        a.custom-home-section__link(href='/tags/') 查看标签
+      .custom-topic-grid
+        each topic in topicGroups
+          .custom-topic-card
+            .custom-topic-card__top
+              h3.custom-topic-card__title= topic.title
+              a.custom-topic-card__more(href=topic.link) 进入专题
+            p.custom-topic-card__desc= topic.desc
+            .custom-topic-card__posts
+              each post in topic.posts
+                a.custom-topic-post(href=url_for(post.path))
+                  span.custom-topic-post__name= post.title
+
+mixin homeContent()
+  main.layout#content-inner
+    #home
+      +customSections()
+      +categoryBar()
+      +postsList()
+
+    include ../themes/solitude/layout/includes/widgets/aside/aside
+
+block content
+  +homeTop()
+  +homeContent()

@@ -5,6 +5,11 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
+    "dev": "concurrently -k -n HEXO,BSYNC \"npm:dev:hexo\" \"npm:dev:reload\"",
+    "dev:open": "concurrently -k -n HEXO,BSYNC \"npm:dev:hexo\" \"npm:dev:reload:open\"",
+    "dev:hexo": "nodemon --watch _config.yml --watch _config.solitude.yml --watch _config.landscape.yml --watch source --watch layout --watch themes/solitude/layout --watch themes/solitude/source --ext yml,md,pug,ejs,js,css,styl,json --exec \"hexo server -p 4000\"",
+    "dev:reload": "browser-sync start --proxy http://localhost:4000 --files \"public/**/*\" --port 4001 --ui-port 4002 --no-open --no-notify --reload-delay 300",
+    "dev:reload:open": "browser-sync start --proxy http://localhost:4000 --files \"public/**/*\" --port 4001 --ui-port 4002 --open local --no-notify --reload-delay 300",
     "deploy": "hexo deploy",
     "server": "hexo server"
   },
@@ -16,6 +21,7 @@
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^4.0.0",
+    "hexo-generator-searchdb": "^1.5.0",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
     "hexo-renderer-ejs": "^2.0.0",
@@ -27,5 +33,10 @@
     "hexo-theme-solitude": "^3.0.21",
     "hexo-util": "^4.0.0",
     "moment": "^2.30.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.4",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.14"
   }
 }
