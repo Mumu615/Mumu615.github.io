@@ -20,7 +20,7 @@
 site:
   name:
     class: text # text / i_class / img
-    custom: 沐辰同学 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
+    custom: PlanB曲线 # Solitude / fas fa-ghost / /img/pwa/favicon.ico
   icon: /img/site-logo.png # Site icon / 网站图标
 # --------------------------- end ---------------------------
 
@@ -31,25 +31,21 @@ nav:
   # Left Box
   # 左侧盒子
   group:
-    Me:
-      记录: /docs/ || /img/日记.png # name: url || icon
-      技能树: /skill-tree/ || /img/技能树.png # name: url || icon
-    开源项目: # name
-      开发中: https://github.com/everfu/hexo-theme-solitude || /img/开发.png # name: url || icon
+    成长:
+      技能学习: /skill-tree/ || /img/技能树.png # name: url || icon
+    工具与资源:
+      GitHub项目: /categories/开源项目分享/ || /img/开发.png # name: url || icon
+      工具分享: /tags/自动化/ || /img/工具分享.png # name: url || icon
+      导航站: /nav/ || /img/导航站.png # name: url || icon
 
   # Menu
   # 菜单
   menu:
     首页: /
-    导航站: /nav/index.html
-    开源项目:
+    内容归档:
       归档: /archives/ || fas fa-folder-closed
       分类: /categories/ || fas fa-clone
       标签: /tags/ || fas fa-tags
-    热门内容:
-      MediaCrawler: /2026/03/13/media-crawler-social-data-tool/ || fas fa-fire
-      ClawX: /2026/03/13/clawx-desktop-ai-agent/ || fas fa-desktop
-      AutoClaw: /2026/03/13/autoclaw-headless-agent/ || fas fa-robot
 
   # Right button
   # 右侧按钮
@@ -69,31 +65,41 @@ nav:
 hometop:
   enable: true
   banner:
-    title: 聚焦 AI 资源<br >与开源项目实践 # 大字
+    title: 跨越已知曲线<br>拥抱无限可能 # 大字
     desc:
-      - 分享可复用的 AI 资源与工具
-      - 记录 AI Agent 与自动化实践
-      - 持续更新值得关注的 GitHub 开源项目
+      - 在熟悉的世界里，找到崭新的上升弧线。
+      - 不止于职场转身，更是人生的再次启程。
+      - 每一次主动跨界，都是一次优雅的跃迁。
     icon:
-      AI Agent:
-        img: /img/logo.png
-        color: "#5b6cff"
+      OpenAI:
+        img: /img/brands/openai.svg
+        color: "#111827"
+      Claude:
+        img: /img/brands/anthropic.svg
+        color: "#C26A3D"
+      Gemini:
+        img: /img/brands/gemini.svg
+        color: "#4F7CFE"
+      DeepSeek:
+        img: /img/brands/deepseek.svg
+        color: "#4D6BFE"
       GitHub:
-        img: /img/site-logo.png
-        color: "#ff9f1c"
-      自动化:
-        img: /img/default.avif
-        color: "#2ec4b6"
+        img: /img/brands/github.svg
+        color: "#24292F"
+      通义千问:
+        img: /img/brands/qwen.svg
+        color: "#7A5AF8"
   group:
-    AI Agent: /tags/AI-Agent/ || fas fa-robot || linear-gradient(to right,#ff8a00,#ffb347)
-    开源项目: /categories/开源项目分享/ || fas fa-folder-open || linear-gradient(to right,#247ba0,#70c1b3)
-    自动化: /tags/自动化/ || fas fa-bolt || linear-gradient(to right,#3a86ff,#00b4d8)
+    热门: /tags/热门 || fas fa-seedling || linear-gradient(to right,#7b2ff7,#b06ab3)
+    视频: /nav/ || fas fa-compass || linear-gradient(to right,#247ba0,#70c1b3)
+    图集: /tags/自动化/ || fas fa-arrow-trend-up || linear-gradient(to right,#ff8a00,#ffb347)
+    随笔: /tags/自动化/ || fas fa-pen-nib || linear-gradient(to right,#f43f5e,#fb7185)
   recommendList:
     enable: true
-    sup: 置顶
-    title: MediaCrawler：一站式社媒内容采集开源工具实战
-    url: /2026/03/13/media-crawler-social-data-tool/
-    img: /img/logo.png
+    sup: 传奇由此落笔
+    title: 目标无尽星海
+    url: /
+    img: /img/推荐页.png
     color: "none"
 # --------------------------- end ---------------------------
 
@@ -107,7 +113,7 @@ aside:
   # Sticky: Fixed position / noSticky: Not fixed position
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # on the homepage
-    noSticky: "about,newestPost"
+    noSticky: "about"
     Sticky: "allInfo"
   post: # on the article page
     noSticky: "about"
@@ -126,9 +132,9 @@ aside:
       img: /img/logo.png # url
       sticker: # url, 24x24 size
     # 介绍 / Introduction
-    description: 帮你更快获取 AI 资源、开源工具和自动化实践思路。
+    description: 记录成长跃迁、工具探索与人生转向的每一次曲线变化。
     # 内容 / Content
-    content: 这里持续更新 AI Agent、开源项目、自动化工具和可复用资源。
+    content: 这里持续更新技能学习、工具资源、跨界实践与新的可能性。
     state:
       morning: ✨ 早上好，新的一天开始了
       noon: 🍲 午餐时间
@@ -143,8 +149,9 @@ aside:
     # 社交信息图标
     information:
       GitHub: https://github.com/Mumu615 || fab fa-github
-      Archives: /archives/ || fas fa-box-archive
-      Categories: /categories/ || fas fa-folder-tree
+      小红书: https://www.xiaohongshu.com/user/profile/6470d70f000000001003727b || fa-solid fa-book
+      #归档: /archives/ || fas fa-box-archive
+      #分类: /categories/ || fas fa-folder-tree
   # --------------------------- end ---------------------------
 
   # --------------------------- start ---------------------------
@@ -161,12 +168,9 @@ aside:
   # 标签
   tags:
     enable: true
-    limit: 20 # Number of tags displayed
+    limit: 15 # Number of tags displayed
     # Highlighted tags
     highlight_list:
-      - AI Agent
-      - 自动化
-      - OpenClaw
       - GitHub
   # --------------------------- end ---------------------------
 
@@ -192,7 +196,7 @@ aside:
     runtimeenable: true
     # Format: yyyy-MM-dd hh-mm-ss
     # 格式: yyyy-MM-dd hh-mm-ss
-    runtime: "2023-04-20 00:00:00"
+    runtime: "2026-05-2 00:00:00"
   # --------------------------- end ---------------------------
 # --------------------------- end ---------------------------
 
@@ -254,18 +258,18 @@ post:
   meta:
     # Release date
     # 发布日期
-    date: false
+    date: true
     # Update date
     # 更新日期
-    updated: false
+    updated: true
     # Location
     # 位置
     locate: false
     # Number of words
     # 字数
-    wordcount: false
+    wordcount: true
     # uv
-    readtime: false
+    readtime: true
     # pv
     pv: false
     # Comment count
@@ -293,16 +297,15 @@ post:
   share:
     enable: true
     list:
-      # - qq
+       - qq
       # - weibo
       # - twitter
       # - facebook
       # - telegram
       # - whatsapp
       # - linkedin
-      # - link
-      # - qrcode
-  rss: # /atom.xml
+       - link
+       - qrcode
   # Article reading progress
   # 文章封面取色
   covercolor:
@@ -315,10 +318,10 @@ post:
     time: 43200000
   footer:
     enable: true
-    desc: 这篇内容来自沐辰同学，持续分享 AI 资源、开源项目与自动化实践。
+    desc: 这篇内容来自 PlanB曲线，持续分享 AI 工具、开源项目与自动化实践。
     button: # Button
       enable: true
-      name: 查看全部文章
+      name: 查看更多文章
       url: /archives/
 # --------------------------- end ---------------------------
 
@@ -512,10 +515,14 @@ footer:
     author: /img/logo.png # img url / false
     left:
       GitHub: https://github.com/Mumu615 || fab fa-github
-      分类: /categories/ || fas fa-folder-tree
+      小红书: https://www.xiaohongshu.com/user/profile/6470d70f000000001003727b || fas fa-book-open
+      邮箱: mailto:lj1156086135@aliyun.com || fas fa-envelope
+      #RSS: /atom.xml || fas fa-rss
     right:
+      分类: /categories/ || fas fa-folder-tree
       归档: /archives/ || fas fa-box-archive
       标签: /tags/ || fas fa-tags
+      
   # 友情链接
   group:
     导航:
@@ -544,10 +551,10 @@ footer:
       url: /sitemap.xml
       icon:
         - fas fa-sitemap
-    - name: Robots
-      url: /robots.txt
-      icon:
-        - fas fa-robot
+    #- name: Robots
+    #  url: /robots.txt
+    #  icon:
+    #    - fas fa-robot
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -620,7 +627,7 @@ lazyload:
 loading:
   # Full screen loading
   # 全屏加载
-  fullpage: false
+  fullpage: ture
   # Loading icon, default is siteicon
   # 加载图标，不写默认siteicon
   favicon: /img/logo.png
@@ -910,7 +917,7 @@ recent_comments:
 
 # --------------------------- start ---------------------------
 # Busuanzi
-busuanzi: false
+busuanzi: true
 # 0: Original / 1: Custom
 # 0: 原版 / 1: 自定义版
 busuanzi_use: 0

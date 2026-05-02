@@ -1,12 +1,17 @@
 ---
 title: 导航站
-date: 2026-03-13 20:25:00
-layout: navpage
-aside: false
-comment: false
-description: 我常用的网站导航页，集中整理 AI、开发、设计与效率工具。
+date: 2026-04-29 00:00:00
 ---
 
-这里是我自己的常用网站导航页。
+# 导航站
 
-你可以直接编辑 `source/_data/links.yml` 来维护分类和链接。
+这里会持续整理我常用的 AI 工具、自动化资源与开源项目入口。
+
+## 当前入口
+
+- [技能学习](/skill-tree/)
+- [GitHub项目分类](/categories/开源项目分享/)
+- [自动化标签聚合](/tags/自动化/)
+- [全部归档](/archives/)
+
+后续我会把常用工具、资源导航与专题入口逐步补充到这个页面。
