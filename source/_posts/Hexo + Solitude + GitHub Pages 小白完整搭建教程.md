@@ -10,7 +10,7 @@ tags:
   - GitHub Pages
   - 博客搭建
   - 新手教程
-cover: /img/hexo.png
+cover: /img/Hexo.png
 ---
 
 # Hexo + Solitude + GitHub Pages 小白完整搭建教程（终极版）
