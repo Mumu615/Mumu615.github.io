@@ -42,6 +42,7 @@ nav:
   # 菜单
   menu:
     首页: /
+    模型API: https://api.mingder.space/
     内容归档:
       归档: /archives/ || fas fa-folder-closed
       分类: /categories/ || fas fa-clone
