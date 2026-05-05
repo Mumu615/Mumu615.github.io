@@ -1,5 +1,5 @@
 ---
-title: 明德空间模型 API 普通用户使用教程：用 Cherry Studio 配置 gpt-5.5
+title:  API使用教程：用 Cherry Studio 配置 gpt-5.5
 slug: mingder-new-api-gpt-55-cherry-studio-guide
 date: 2026-05-05 18:30:00
 categories:
@@ -10,10 +10,10 @@ tags:
   - gpt-5.5
   - API中转站
   - 新手教程
-description: 这是一篇面向普通用户的 New API 中转站使用教程，讲清楚如何在明德空间模型 API 创建令牌、选择 GPT 分组，并在 Cherry Studio 中配置 gpt-5.5 模型。
+description: 这是一篇面向普通用户的 New API 中转站使用教程，讲清楚如何在 API 创建令牌、选择 GPT 分组，并在 Cherry Studio 中配置 gpt-5.5 模型。
 keywords:
   - New API 中转站
-  - 明德空间模型 API
+  -  API
   - Cherry Studio
   - gpt-5.5
   - API Key
@@ -22,7 +22,7 @@ cover: /img/AI.png
 
 如果你只是想用模型，不想研究一堆 API 文档，那这篇就够了。
 
-明德空间模型 API 的地址是：
+ API 的地址是：
 
 ```text
 https://api.mingder.space/
@@ -38,7 +38,7 @@ https://api.mingder.space/
 
 开始之前，你只需要准备三样东西：
 
-- 一个明德空间模型 API 账号
+- 一个 API 账号
 - 一个 API 令牌，也就是 API Key
 - 一个支持 OpenAI / NewAPI 接入的客户端，比如 Cherry Studio
 
@@ -52,7 +52,7 @@ New API 官方也有一篇 Cherry Studio 接入教程，后面会引用到：
 
 [Cherry Studio 接入 NewAPI 官方教程](https://doc.newapi.pro/apps/cherry-studio/)
 
-## 第一步：打开明德空间模型 API
+## 第一步：打开 API
 
 先打开这个网址：
 
@@ -116,7 +116,7 @@ sk-xxxxxxxxxxxxxxxxxxxxxxxx
 | 配置项 | 填写内容 |
 | :--- | :--- |
 | 提供商类型 | OpenAI 兼容或 NewAPI 支持的类型 |
-| API 密钥 | 刚才在明德空间模型 API 复制的 API Key |
+| API 密钥 | 刚才在 API 复制的 API Key |
 | API 地址 | `https://api.mingder.space/` |
 
 New API 官方 Cherry Studio 教程里也明确写了这三个参数：
@@ -265,7 +265,7 @@ API Key 相当于你的账号调用凭证。别人拿到后，就可能消耗你
 
 ## 最后总结
 
-普通用户使用明德空间模型 API，其实只需要记住这一套配置：
+普通用户使用 API，其实只需要记住这一套配置：
 
 ```text
 站点地址：https://api.mingder.space/
