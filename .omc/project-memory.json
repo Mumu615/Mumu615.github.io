@@ -1,0 +1,145 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1777996148362,
+  "projectRoot": "d:\\Desk_top\\Obsidian\\hexo",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [],
+    "packageManager": "pnpm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "pnpm build",
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": "pnpm dev",
+    "scripts": {
+      "build": "hexo generate",
+      "clean": "hexo clean",
+      "dev": "concurrently -k -n HEXO,BSYNC \"npm:dev:hexo\" \"npm:dev:reload\"",
+      "dev:open": "concurrently -k -n HEXO,BSYNC \"npm:dev:hexo\" \"npm:dev:reload:open\"",
+      "dev:hexo": "nodemon --watch _config.yml --watch _config.solitude.yml --watch _config.landscape.yml --watch source --watch layout --watch themes/solitude/layout --watch themes/solitude/source --ext yml,md,pug,ejs,js,css,styl,json --exec \"hexo server -p 4000\"",
+      "dev:reload": "browser-sync start --proxy http://localhost:4000 --files \"public/**/*\" --port 4001 --ui-port 4002 --no-open --no-notify --reload-delay 300",
+      "dev:reload:open": "browser-sync start --proxy http://localhost:4000 --files \"public/**/*\" --port 4001 --ui-port 4002 --open local --no-notify --reload-delay 300",
+      "deploy": "hexo deploy",
+      "server": "hexo server"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "public",
+      "scripts"
+    ],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "layout": {
+      "path": "layout",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777996148325,
+      "keyFiles": [
+        "index.pug"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 5,
+      "lastAccessed": 1777996148326,
+      "keyFiles": [
+        "404.html",
+        "index.html",
+        "robots.txt",
+        "search.xml",
+        "sitemap.xml"
+      ]
+    },
+    "scaffolds": {
+      "path": "scaffolds",
+      "purpose": null,
+      "fileCount": 3,
+      "lastAccessed": 1777996148335,
+      "keyFiles": [
+        "draft.md",
+        "page.md",
+        "post.md"
+      ]
+    },
+    "scripts": {
+      "path": "scripts",
+      "purpose": "Build/utility scripts",
+      "fileCount": 0,
+      "lastAccessed": 1777996148335,
+      "keyFiles": []
+    },
+    "source": {
+      "path": "source",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777996148336,
+      "keyFiles": [
+        "robots.txt"
+      ]
+    },
+    "themes": {
+      "path": "themes",
+      "purpose": null,
+      "fileCount": 1,
+      "lastAccessed": 1777996148336,
+      "keyFiles": []
+    },
+    "tools": {
+      "path": "tools",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1777996148336,
+      "keyFiles": []
+    },
+    "_data": {
+      "path": "_data",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1777996148336,
+      "keyFiles": []
+    },
+    "public\\docs": {
+      "path": "public\\docs",
+      "purpose": "Documentation",
+      "fileCount": 1,
+      "lastAccessed": 1777996148337,
+      "keyFiles": [
+        "index.html"
+      ]
+    },
+    "source\\docs": {
+      "path": "source\\docs",
+      "purpose": "Documentation",
+      "fileCount": 1,
+      "lastAccessed": 1777996148338,
+      "keyFiles": [
+        "index.md"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}

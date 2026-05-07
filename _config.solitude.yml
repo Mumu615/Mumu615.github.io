@@ -109,16 +109,16 @@ hometop:
 # 侧边栏
 aside:
   # Values: about (info card), newestPost (latest article), allInfo (website information), newest_comment (latest comment)
-  # 值: about(信息卡), newestPost(最新文章), allInfo(网站信息), newest_comment(最新评论)
+  # 值: about(信息卡), newestPost(最新文章), allInfo(网站信息), newest_comment(最新评论), reward(打赏)
 
   # Sticky: Fixed position / noSticky: Not fixed position
   # Sticky: 固定位置 / noSticky: 不固定位置
   home: # on the homepage
     noSticky: "about"
-    Sticky: "allInfo"
+    Sticky: "reward,allInfo"
   post: # on the article page
     noSticky: "about"
-    Sticky: "newestPost"
+    Sticky: "reward,newestPost"
   page: # on the page
     noSticky: "about"
     Sticky: "newestPost,allInfo"
@@ -279,19 +279,23 @@ post:
   # Reward
   # 打赏
   award:
-    enable: false
+    enable: true
     appreciators: /about/ # Reward page
     # Reward Title
     # 打赏标题
-    title: # Thanks for your appreciation. / 感谢您的赞赏
-    desc: # Because of your support, I realize the value of writing articles. / 由于您的支持，我才能够实现写作的价值。
+    title: 感谢你的支持
+    desc: 如果这篇文章对你有帮助，欢迎请我喝杯咖啡。
     # Reward list
     # 打赏列表
     list:
-      # - name: Github Sponsor
-      #   qcode: https://s3.qjqq.cn/47/661ba900c4bc1.webp!color
-      #   url: https://github.com/sponsors/everfu
-      #   color: var(--efu-black)
+      - name: 微信
+        qcode: /img/微信.png
+        url: /img/微信.png
+        color: '#07c160'
+      - name: 支付宝
+        qcode: /img/支付宝.png
+        url: /img/支付宝.png
+        color: '#1677ff'
 
   # Share icon
   # 分享图标
